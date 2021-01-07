@@ -10,7 +10,8 @@
 <!-- Hyper Text Markup Language -->
 <!-- Elements Components Commands <tagname> -->
 <!-- <tag></tag> <tag/> -->
-<!-- html,head,body,title,meta[name,content],h1 to h6,p,span,b,i,u -->
+<!-- html,head,body,title,meta[name,content],h1 to h6,p,span,b,i,u,style,link,form,input,button -->
+<!-- alert,submit -->
 <!-- CSS - Cascading Style sheet -->
 <!-- id,class,name -->
 <html>
@@ -37,7 +38,23 @@
     <h4>Hello World</h4>
     <p>fnoansahsfklnalnglnfsagnsilnfglinsflkgnlksfngknfsdkgdsfgs</p>
     <span>fgsfgdsf</span>
+    <form>
+        <input type="text" placeholder="Enter your Name " />
+        <input type="eamil" placeholder="Enter your Email " />
+        <input type="tel" placeholder="Enter your Phone Num " />
+        <input type="number" placeholder="Enter your Lucky Num " />
+        <input type="file" placeholder="Enter your File " />
+        <input type="color" placeholder="Enter your Name " />
+        <input type="date" placeholder="Enter your Name " />
+
+    </form>
+    <button onclick="submit()">Submit</button>
     <!-- JS elements are called in here -->
+    <script>
+        const submit = () => {
+            alert("submit test");
+        }
+    </script>
 </body>
 
 </html>
