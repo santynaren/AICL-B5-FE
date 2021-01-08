@@ -2,23 +2,49 @@
     color: grey;
     background-color: black;
     text-align: center;
-    padding: 10; /* 10 pixels */
+    padding: 10;
+    /* 10 pixels */
 }
-#image{
+
+#image {
     border-radius: 150px;
     width: 250px;
     height: 250px;
 }
-.container{
+
+.container {
     text-align: center;
     padding: 40px;
-    margin:40px;
+    margin: 40px;
     border: 10px solid red;
     border-radius: 8px;
-    background:limegreen;
+    background: limegreen;
 }
+
 .test {
     color: green;
+
+}
+
+.flexdiv {
+    width: 100%;
+    border:1px solid black;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+    flex-direction: column;
+
+}
+
+#elem {
+    text-align: center;
+
+    background: grey;
+    padding: 5px;
+    border: 1px solid red;
+
 
 }
 
