@@ -4,7 +4,18 @@
     text-align: center;
     padding: 10; /* 10 pixels */
 }
-
+#image{
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+}
+.container{
+    padding: 40px;
+    margin:40px;
+    border: 10px solid red;
+    border-radius: 8px;
+    background:green;
+}
 .test {
     color: green;
 
