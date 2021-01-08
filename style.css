@@ -10,11 +10,12 @@
     height: 250px;
 }
 .container{
+    text-align: center;
     padding: 40px;
     margin:40px;
     border: 10px solid red;
     border-radius: 8px;
-    background:green;
+    background:limegreen;
 }
 .test {
     color: green;
