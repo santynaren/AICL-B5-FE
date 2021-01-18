@@ -80,8 +80,30 @@
         </div>
 
     </div>
+    <form class="col-md-3" style="text-align: center">
+        <input class="form-control" id="nameInput" type="text" placeholder="Enter your Name " />
+        <input class="form-control" type="eamil" placeholder="Enter your Email " />
+        <input class="form-control" type="tel" placeholder="Enter your Phone Num " />
+        <input class="form-control" type="number" placeholder="Enter your Lucky Num " />
+        <input class="form-control" type="file" placeholder="Enter your File " />
+        <input class="form-control" type="color" placeholder="Enter your Name " />
+        <input class="form-control" type="date" placeholder="Enter your Name " />
+        <input class="form-control" id="password" type="password" placeholder="Enter Password" />
+
+    </form>
+    <button class="btn btn-primary" onclick="showPassword()">show password</button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script>
+        const showPassword = () => {
+            const password = document.getElementById("password");
+            if (password.type === "password") {
+                password.type = "text";
+            } else {
+                password.type = "password";
+            }
+        }
     </script>
 </body>
 
